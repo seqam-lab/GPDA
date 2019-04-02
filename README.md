@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+**This is the project page for Unsupervised Visual Domain Adaptation:A Deep Max-Margin Gaussian Process Approach.
+The work was accepted by CVPR 2019 Oral.**
+[[Paper Link(arxiv)]](https://arxiv.org/pdf/1902.08727.pdf).
+<br>
 
-You can use the [editor on GitHub](https://github.com/seqam-lab/GPDA/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Abstract
+In unsupervised domain adaptation, it is widely known that the target domain error can be provably reduced by having
+a shared input representation that makes the source and target domains indistinguishable from each other. Very recently it
+has been studied that not just matching the marginal input distributions, but the alignment of output (class) distributions is
+also critical. The latter can be achieved by minimizing the maximum discrepancy of predictors (classifiers). In this paper,
+we adopt this principle, but propose a more systematic and effective way to achieve hypothesis consistency via Gaussian
+processes (GP). The GP allows us to define/induce a hypothesis space of the classifiers from the posterior distribution of the
+latent random functions, turning the learning into a simple large-margin posterior separation problem, far easier to solve
+than previous approaches based on adversarial minimax optimization. We formulate a learning objective that effectively
+pushes the posterior to minimize the maximum discrepancy. This is further shown to be equivalent to maximizing margins
+and minimizing uncertainty of the class predictions in the target domain, a well-established principle in classical (semi-
+)supervised learning. Empirical results demonstrate that our approach is comparable or superior to the existing methods on
+several benchmark domain adaptation datasets.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Results
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/seqam-lab/GPDA/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
