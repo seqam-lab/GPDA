@@ -1,0 +1,1 @@
+--num_k 3 --num_kq 3 --lamb_marg_loss 10.0 --max_epoch 2000 --save_model --save_epoch 10 --fix_randomness
