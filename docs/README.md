@@ -17,11 +17,11 @@ and minimizing uncertainty of the class predictions in the target domain, a well
 )supervised learning. Empirical results demonstrate that our approach is comparable or superior to the existing methods on
 several benchmark domain adaptation datasets.
 
-[Method]method.png "Method")
+![Method](method.png)
 <br>
 
 ## Results
-[Results](results.png "Results")
+![Results](results.png)
 <br>
 
 ## Codes
