@@ -1,6 +1,6 @@
 **This is the project page for Unsupervised Visual Domain Adaptation:A Deep Max-Margin Gaussian Process Approach.
 The work was accepted by CVPR 2019 Oral.**
-[[Paper Link(arxiv)]](https://arxiv.org/pdf/1902.08727.pdf).
+[[Paper Link]](http://openaccess.thecvf.com/content_CVPR_2019/html/Kim_Unsupervised_Visual_Domain_Adaptation_A_Deep_Max-Margin_Gaussian_Process_Approach_CVPR_2019_paper.html).
 <br>
 
 
